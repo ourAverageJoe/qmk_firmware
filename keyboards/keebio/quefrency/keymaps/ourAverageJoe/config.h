@@ -23,5 +23,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // #define USE_I2C
 
+#undef RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_EFFECT_SNAKE
+
+// #define DRIVER_LED_TOTAL = 16
+
 #define RGBLIGHT_SLEEP 1
 #define RGBLIGHT_SPLIT 1
